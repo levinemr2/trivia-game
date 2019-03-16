@@ -1,0 +1,120 @@
+body {
+	background-color: #000;
+}
+
+#jumbo1 {
+	background-image: url("../images/the_Beatles_wallpaper.jpg");
+    max-height: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 500px;
+    width: 100%;
+}
+
+#triviaTitle {
+	margin-left: auto;
+    margin-right: auto;
+    color:#faf7ed;
+    letter-spacing: 8px;
+    font-family: 'Rock Salt', cursive;
+}
+
+div.jumbotron.text-center#startGame {
+	background-color: rgba(0, 0, 0, 0.01);
+}
+
+	#startBtn {
+		padding:12px 40px 12px 40px;
+		font-size: 25px;
+		background-color: rosybrown;
+		border-color: olive;
+		color:black ;
+		font-family: 'Rock Salt', cursive;
+		letter-spacing: 4px;
+	}
+		#startBtn:hover {
+			background-color: #8f3625;
+			color: #def;
+		}
+
+div#gameArea.jumbotron.text-center {
+	/*margin-right: 10%;
+    margin-left: 10%;*/
+    background-color: #000;
+}
+
+img.gifImg {
+	width:75%;
+	height:auto;
+}
+
+div#Qs.container {
+	font-family: 'Source Code Pro', monospace;
+}
+	div#time {
+		font-size: 25px;
+		color: #def;
+	}
+	div.question {
+		/*font-family: 'Source Code Pro', monospace;*/
+		color:#eb8b2b;
+		font-size: 18px;
+	}
+
+	div.thisChoice {
+		/*font-family: 'Nanum Gothic Coding', monospace;*/
+		font-size: 16px;
+		color: #def;
+		line-height: 50px;
+	}
+		div.thisChoice:hover {
+			color:red;
+		}
+div#Ans.container {
+	font-family: 'Source Code Pro', monospace;
+}
+	div#text, div#correctAnswer {
+		color: #edd899;
+		font-size: 18px;
+	}
+	div#text {
+		/*font-family: 'Ubuntu Mono', monospace;*/
+		color: #b7ecf5;
+	}
+	div.gifCap {
+		color:#faf7ed;
+		font-size: 14px;
+	}
+
+div.container#Res {
+	color: lightblue;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+}
+	div#resultText {
+		color: #eb8b2b;
+	}
+	button#startOverBtn {
+		padding:12px 40px 12px 40px;
+		font-size: 18px;
+		background-color: rosybrown;
+		border-color: #000;
+		color: black;
+		font-family: 'Rock Salt', cursive;
+		letter-spacing: 4px;
+	}
+		button#startOverBtn:hover {
+			background-color:rosybrown;
+			color: #111;
+			cursor: pointer;
+		}
+
+/*
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Ubuntu Mono', monospace;
+*/
