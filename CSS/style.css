@@ -18,10 +18,10 @@ body {
     margin-right: auto;
     color:#faf7ed;
     letter-spacing: 8px;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-div.jumbotron.text-center#startGame {
+#startGame {
 	background-color: rgba(0, 0, 0, 0.01);
 }
 
@@ -31,7 +31,7 @@ div.jumbotron.text-center#startGame {
 		background-color: rosybrown;
 		border-color:black;
 		color:black ;
-		font-family: 'Rock Salt', cursive;
+		font-family: 'Times New Roman', Times, serif;
 		letter-spacing: 4px;
 	}
 		#startBtn:hover {
@@ -39,7 +39,7 @@ div.jumbotron.text-center#startGame {
 			color: #def;
 		}
 
-div#gameArea.jumbotron.text-center {
+#gameArea {
 	/*margin-right: 10%;
     margin-left: 10%;*/
     background-color: #000;
@@ -50,34 +50,34 @@ img.gifImg {
 	height:auto;
 }
 
-div#Qs.container {
-	font-family: 'Source Code Pro', monospace;
+#Qs {
+	font-family: 'Times New Roman', Times, serif
 }
-	div#time {
+	#time {
 		font-size: 25px;
 		color: #def;
 	}
-	div.question {
-		/*font-family: 'Source Code Pro', monospace;*/
-		color:#eb8b2b;
+	.question {
+		
+		color: rosybrown;
 		font-size: 18px;
 	}
 
-	div.thisChoice {
-		/*font-family: 'Nanum Gothic Coding', monospace;*/
+	.thisChoice {
+		
 		font-size: 16px;
 		color: #def;
 		line-height: 50px;
 	}
-		div.thisChoice:hover {
+		.thisChoice:hover {
 			color:red;
 		}
-div#Ans.container {
-	font-family: 'Source Code Pro', monospace;
+#Ans {
+	font-family: 'Times New Roman', Times, serif;
 }
-	div#text, div#correctAnswer {
-		color: #edd899;
-		font-size: 18px;
+	#text, #correctAnswer {
+		color: rosybrown;
+		font-size: 24px;
 	}
 	div#text {
 		/*font-family: 'Ubuntu Mono', monospace;*/
@@ -85,7 +85,7 @@ div#Ans.container {
 	}
 	div.gifCap {
 		color:#faf7ed;
-		font-size: 14px;
+		font-size: 24px;
 	}
 
 div.container#Res {
@@ -94,7 +94,7 @@ div.container#Res {
 	font-family: 'Source Code Pro', monospace;
 }
 	div#resultText {
-		color: #eb8b2b;
+		color: rosybrown;
 	}
 	button#startOverBtn {
 		padding:12px 40px 12px 40px;
@@ -102,7 +102,7 @@ div.container#Res {
 		background-color: rosybrown;
 		border-color: #000;
 		color: black;
-		font-family: 'Rock Salt', cursive;
+		font-family: 'Times New Roman', Times, serif;
 		letter-spacing: 4px;
 	}
 		button#startOverBtn:hover {
